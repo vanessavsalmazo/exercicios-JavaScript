@@ -6,21 +6,13 @@ function calcular() {
     } else {
         var n1 = Number(n.value)
         var c = 0
-        L.innerHTML = " " //isso para limpar a área antes de gerar um numero novo
+        L.innerHTML = " " 
         do {
-            var item = document.createElement("option") // para criar a caixa de seleção fora do html
+            var item = document.createElement("option") 
             item.text = `${n1} x ${c} = ${n1*c}`
             c++
-            L.appendChild(item) //para criar um apendice dentro da lista (select)
+            L.appendChild(item) 
         } while (c <=10)
     }
 }
-
-/*poderia também ter while
-while (c <=10) {
-     var item = document.createElement("option") 
-            item.text = `${n1} x ${c} = ${n1*c}`
-            L.appendChild(item) 
-            c++
-        }*/
 
