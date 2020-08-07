@@ -1,0 +1,25 @@
+body {
+    background: rgb(115, 90, 230);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: rgb(68, 68, 68);
+    text-align: center; /*centralizar textos*/
+}
+
+section {
+    background: rgb(197, 197, 197);
+    border-radius: 10px; /*arredondar cantos*/
+    padding: 15px; /*aumentar o quadrado branco*/
+    width: 480px; /*largura do quadrado branco*/
+    margin: auto; /*centralizar tudo*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568); /*efeito relevo*/
+}
+
+footer {
+    color: rgb(74, 56, 150);
+    text-align: center;
+    font: normal 12pt Arial;
+    font-style: italic;
+}

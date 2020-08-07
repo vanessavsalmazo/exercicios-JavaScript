@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada Automática</h1>
+    </header>
+    <section>
+        <div id= "tabuada"> <!-- nao utilizou o div id nesse caso -->
+            <p>Digite um Número: <input type="number" name="numero" id="numero">
+            <input type="button" value="Gerar Tabuada" onclick = "calcular()"></p>
+        </div>
+        <div>
+            <select name="lista" id="lista" size= "12"> <!--opção p/ inserir a lista. Size determina o tamanho da caixa-->
+            <option>Digite um número acima</option> <!--opção para inserir texto dentro da lista-->
+            </select>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; ByVanessaVSalmazo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
